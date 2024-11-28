@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   background-color:  #f9f9f9;
+}
+#inpdiv{
+    height: 20vh;
+    width: 1540px; 
+   background-color: red;
+}
+#inp{
+    margin-left: 500px;
+    height: 30px;
+    width: 500px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    height: 30px;
+   width: 90px;
+   border: none;
+   gap: none;
+   background-color: white;
+}
+#h1{
+    margin-top: 30px;
+    margin-left: 650px;
+}
+#tododiv{
+    height: 700vh;
+    width: 1540px; 
+    padding-left: 500px;
+    font-size: 30px;
+    display: inline;
+   background-color:white;
+   
+}
+.todo{
+    display: flex;
+    gap: 20px;
+    font-size: 32px;
+    margin: 10px;
+}
+.todo p{
+    width: 150px;
+}
+.todo button{
+    height: 30px;
+    width: 60px;
+    padding: 10px 0px;
+}
+.strikeOut{
+  text-decoration: line-through;
+}
